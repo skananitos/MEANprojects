@@ -1,9 +1,9 @@
 {
-  "name": "visitParis-v01",
+  "name": "visitParis",
   "version": "1.0.0",
   "private": true,
   "description": "Node.js, Express, Handlebars and Bootstrap",
-  "main": "serverapp.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
