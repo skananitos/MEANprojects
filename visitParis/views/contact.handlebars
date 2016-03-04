@@ -1,0 +1,23 @@
+<!-- CONTACT FORM -->
+<div class="container">
+<div class="col-md-4"></div>
+  <div class="col-md-4">
+      <form class="form-signin" role="form" action="/send?form=contact" method="POST">
+        <h2 class="form-signin-heading">Contact Us</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>
+        <label for="inputSubject" class="sr-only">Subject</label>
+        <input type="text" id="inputSubject" class="form-control" name="subj" placeholder="Subject" required>
+        <label for="inputMsg" class="sr-only">Message</label>
+        <textarea id="inputMsg" class="form-control" name="msg" placeholder="Your message" required></textarea>
+        <input type="hidden" name="_csrf" value="{{csrf}}">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="copy" value="copy"> Send me a copy of message
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block btn-clr" name="submit" type="submit">Send</button>
+      </form>
+  </div>
+  <div class="col-md-4"></div>
+</div> <br><!-- /END CONTACT FORM -->
