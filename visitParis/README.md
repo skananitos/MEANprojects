@@ -11,11 +11,12 @@
 The project contains 4 pages: Home, About, Contact, Memories > Upload
 
 
-**Technologies used:** Bootstrap, Handlebars.js, Node.js, Express
+**Technologies used:** Front-End = {HTML, CSS, Bootstrap, Handlebars.js}, Back-End = {Node.js, Express}
 
 
-*//TODO: Connection with NoSQL*
-
+*//TODO: Form validation*
+*//TODO: Connection with MongoDB*
+*//TODO: Save image*
 
 ### Installation
 
