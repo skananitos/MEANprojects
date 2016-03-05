@@ -15,8 +15,11 @@ The project contains 4 pages: Home, About, Contact, Memories > Upload
 
 
 *//TODO: Form validation*
+
 *//TODO: Connection with MongoDB*
+
 *//TODO: Save image*
+
 
 ### Installation
 
