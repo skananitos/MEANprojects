@@ -92,6 +92,15 @@ a:hover {
   border-color: #611d74;
 }
 
+
+/* QUOTE OF THE DAY
+-------------------------------------------------- */
+.qt {
+  text-align: center;
+  /*font-size: small;*/
+  font-style: italic;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -133,7 +142,7 @@ a:hover {
 /* Sign in form
 ------------------------- */
 .form-signin {
-  max-width: 330px;
+  max-width: 350px;
   padding: 15px;
   margin: 0 auto;
 }
@@ -166,7 +175,6 @@ a:hover {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

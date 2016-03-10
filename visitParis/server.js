@@ -127,6 +127,19 @@ app.post('/upload/:year/:month', function(req, res){ //open upload.handlebars
 });
 
 
+app.get('/top', function(req, res){
+  res.render('top'); //point at the top.handlebars view
+});
+
+app.post('/sendtop', function(req, res){ //receive the contact form data
+  //TODO(on next version): store data to a database
+
+  var topData = req.body.first + req.body.second + req.body.third + req.body.fourth + req.body.fifth + req.body.new;
+  console.log(topData); 
+  res.redirect(303, '/thanks'); //redirect to thanks.handlebars view after the contact form is processed
+});
+
+
 app.use(session({ secret:'music life fun one', saveUninitialized: true, resave: true}));
 app.use(csrf());
 

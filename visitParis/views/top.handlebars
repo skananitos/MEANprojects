@@ -1,0 +1,46 @@
+<!-- TOP 5 IN PARIS + ANGULARJS-->
+<div class="container">
+<div class="col-md-2"></div>
+  <div class="col-md-8" ng-controller="topCtrl">
+    <h2>Top 5 Most Famous Monuments of Paris</h2>
+    <p class="lead">Paris, the City of Light is the world’s most visited capital. Here is the top 5 list of Paris’ most famous monuments selected by you! <br/> <br/><em>Keep or change Top 5 according to your preference!</em></p><br>
+
+    <ol class="lead">
+        <li ng-repeat = "top in tops">
+          <span ng-bind="top"></span>
+        </li>
+    </ol>
+
+      <form class="form-signin" role="form" action="/sendtop?form=top" method="POST">
+
+        <h3 class="form-signin-heading">Make your list!</h3>
+
+        <label>Change 1st :  </label>
+        <input type="text" class="form-control" name="first" ng-model="tops[0]" /><br />
+
+        <label>Change 2nd : </label>
+        <input type="text" class="form-control" name="second" ng-model="tops[1]" /><br />
+
+        <label>Change 3rd :  </label>
+        <input type="text" class="form-control" name="third" ng-model="tops[2]" /><br />
+
+        <label>Change 4th :  </label>
+        <input type="text" class="form-control" name="fourth" ng-model="tops[3]" /><br />
+
+        <label>Change 5th :  </label>
+        <input type="text" class="form-control" name="fifth" ng-model="tops[4]" /><br />
+
+        <!-- User enters a new item and when the button is clicked the value in the input box is added to the array -->
+        <label>Add more :
+          <input type="text" class="form-control" name="new" ng-model="addNew" />
+        </label>
+        <button type="button" class="btn btn-lg" ng-click="addItem(addNew)">Add</button>
+
+        <!-- Error shows here if no item was entered -->
+        <h4 ng-bind="missingError"></h4>
+
+        <button class="btn btn-lg btn-primary btn-block btn-clr" name="submit" type="submit">Send</button>
+      </form>
+  </div>
+  <div class="col-md-2"></div>
+</div> <br><!-- /END TOP 5 IN PARIS -->

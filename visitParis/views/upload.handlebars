@@ -1,16 +1,36 @@
 <!-- UPLOAD FORM -->
 <div class="container">
 <div class="col-md-4"></div>
-  <div class="col-md-4">
-      <form class="form-signin" role="form" action="/upload/{year}/{month}" enctype="multipart/form-data" method="POST">
+  <div class="col-md-4" ng-controller="contactCtrl">
+      <form name="myUpload" class="form-signin" role="form" action="/upload/{year}/{month}" enctype="multipart/form-data" method="POST">
         <h2 class="form-signin-heading">Share your memories!</h2>
         <label for="inputName" class="sr-only">Name</label>
-        <input type="text" id="inputName" class="form-control" placeholder="Name" name="name" required autofocus>
+        <input type="text" id="inputName" class="form-control" placeholder="Name" name="name" ng-model="name.text" ng-pattern="name.word" ng-minlength="2" required autofocus>
+
+        <p role="alert">
+          <span class="error" ng-show="myUpload.name.$error.required">Required!</span>
+          <span class="error" ng-show="myUpload.name.$dirty && myForm.msg.$error.minlength">Must be a minimum of 2 characters</span>
+        </p>
+
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" ng-model="email" required autofocus>
+
+        <p role="alert">
+          <span class="error" ng-show="myUpload.email.$error.required">Required!</span>
+          <span class="error" ng-show="myUpload.email.$error.email">Not valid email!</span>
+        </p>
+
         <label for="inputPhoto" class="sr-only">Photo</label>
         <input type="file" id="inputPhoto" class="form-control" name="photo" accept="image/*" required>
-        <button class="btn btn-lg btn-primary btn-block btn-clr" name="submit" type="submit">Submit</button>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="terms" id="terms" value="Agreed" required aria-required="true" aria-labelledby="terms Agreed" ng-model="checked">&nbsp;I accept the terms and conditions
+          </label>
+        </div>
+
+
+        <button class="btn btn-lg btn-primary btn-block btn-clr" name="submit" type="submit" ng-model="button" ng-disabled="!checked">Submit</button>
       </form>
   </div>
   <div class="col-md-4"></div>
