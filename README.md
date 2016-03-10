@@ -13,4 +13,4 @@ Calling the GitHub API with Node.js to count the repositories of a specific user
 
 The project contains 4 pages: Home, About, Contact, Memories > Upload
 
-*Technologies used:* Bootstrap, Handlebars.js, Node.js, Express
+*Technologies used:* Front-End = {HTML, CSS, Bootstrap, Handlebars.js}, Back-End = {Node.js, Express}
