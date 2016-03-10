@@ -1,6 +1,6 @@
 # Visit Paris
 
-*Ongoing project*
+*Ongoing project* last update: 10.03.2013 - AngularJS extension
 
 
 ### Description
@@ -11,14 +11,14 @@
 The project contains 4 pages: Home, About, Contact, Memories > Upload
 
 
-**Technologies used:** Front-End = {HTML, CSS, Bootstrap, Handlebars.js}, Back-End = {Node.js, Express}
+**Technologies used:** Front-End = {HTML, CSS, Bootstrap, AngularJS, Handlebars.js}, Back-End = {Node.js, Express}
 
 
-*//TODO: Form validation*
+*//TODO: Form validation (done) + check hacker attack (OWASP)*
 
 *//TODO: Connection with MongoDB*
 
-*//TODO: Save image*
+*//TODO: Validation + Save image (in process)*
 
 
 ### Installation
