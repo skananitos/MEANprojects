@@ -14,3 +14,8 @@ Calling the GitHub API with Node.js to count the repositories of a specific user
 The project contains 5 pages: Home, About, Contact, Memories > Top5 / Upload
 
 *Technologies used:* Front-End = {HTML, CSS, Bootstrap, AngularJS, Handlebars.js}, Back-End = {Node.js, Express}
+
+
+### [Simple AngularJS Examples](https://github.com/skananitos/MEANprojects/tree/master/simpleAngular)
+
+A couple of simple AngularJS examples for practice and quick reference.
