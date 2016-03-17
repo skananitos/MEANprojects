@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app2" ng-cloak>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simple AngularJS Code">
+  <meta name="author" content="skananitos">
+  <title>Simple AngularJS Code</title>
+
+  <!-- Included when we wait to call AngularJS at the end of the document -->
+  <style>
+    [ng\:cloak], [ng-cloak], .ng-cloak {
+      display: none;
+    }
+
+    .alert-less {
+      color:#8a6d3b;
+      background-color:#fcf8e3;
+      border-color:#faebcc;
+      width: 10%;
+    }
+    .alert-more {
+      color:#a94442;
+      background-color:#f2dede;
+      border-color:#ebccd1;
+      width: 12%;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div ng-controller="MainCtrl">
+    <h1>Hello {{ name + '. How are you?' }}</h1>
+  </div>
+
+  <div ng-controller="TwitterCtrl">
+    <div>
+      <label>What is your twitter handle?</label>
+      <input type="text" ng-model="handle" />
+    </div>
+
+    <hr />
+
+    <h3>twitter.com/{{ lowercasehandle() }}</h3>
+
+    <div>
+      <label>What is your mobile phone number?</label>
+      <input type="text" ng-model="phone" />
+    </div>
+
+    <!-- Show / hide DOM's parts with ng-if; 
+    alternatively use ng-show or ng-hide.
+    Update automatically classes depending on the -->
+
+    <div class="alert" ng-class="{'alert-less': phone.length < digits, 'alert-more': phone.length > digits }" ng-if="phone.length !== digits">
+      <div ng-show="phone.length < digits">
+        You have less than 10 digits!
+      </div>
+        
+      <div ng-show="phone.length > digits">
+        You have more than 10 digits!
+      </div>
+
+    </div>
+
+    <hr />
+
+    <h3>mobile phone number: {{ phone }}</h3>
+
+    <h4><em>Rules</em></h4>
+    <ul>
+      <li ng-repeat="rule in rules">
+        {{ rule.rulename }}
+      </li>
+    </ul>
+
+    <input type="button" value="Click me" ng-click="alertClick()" />
+
+  </div>
+
+  <!-- JavaScript
+    ================================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="js/app2.js"></script>
+</body>
+</html>
