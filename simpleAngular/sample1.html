@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simple AngularJS Code">
+  <meta name="author" content="skananitos">
+  <title>Simple AngularJS Code</title>
+</head>
+<body>
+
+  <div ng-controller="MainCtrl">
+    <h1>Please type your keyword:</h1>
+    <form name="myForm">
+    <label>
+      Enter text:
+      <input type="text" ng-model="field" name="myField" required minlength="5" />
+    </label>
+    <div ng-messages="myForm.myField.$error" role="alert">
+      <div ng-message="required">You did not enter a field</div>
+      <div ng-message="minlength, maxlength">
+        Your email must be between 5 and 100 characters long
+      </div>
+    </div>
+  </form>
+  </div>
+
+  <!-- JavaScript
+    ================================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.4.9/angular-messages.min.js"></script>
+  <script src="https://code.angularjs.org/1.4.9/angular-resource.min.js"></script>
+  <script src="js/app1.js"></script>
+</body>
+</html>
