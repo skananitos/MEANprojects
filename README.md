@@ -19,3 +19,13 @@ The project contains 5 pages: Home, About, Contact, Memories > Top5 / Upload
 ### [Simple AngularJS Examples](https://github.com/skananitos/MEANprojects/tree/master/simpleAngular)
 
 A couple of simple AngularJS examples for practice and quick reference.
+
+
+### [postcardArt](https://github.com/skananitos/MEANprojects/tree/master/postcardArt)
+
+Web portfolio template (HTML, CSS3, Sass, Bootstrap, AngularJS)
+
+
+### [Yu­Gi­Oh! Deck Browser](https://github.com/skananitos/MEANprojects/tree/master/yugioh-project)
+
+Yu­Gi­Oh! Deck Browser uses the [YugiohPrices.com API](http://docs.yugiohprices.apiary.io/). It's a simple deck browser app for a specific card deck.
