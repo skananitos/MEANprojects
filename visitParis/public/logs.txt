@@ -1,5 +1,0 @@
-Form : contact
-CSRF token : iuYvjqkj-jXLgjf_DlBgHxjAAfDK6-quwfxg
-Email : info@ekoletsou.gr
-Subject : test
-Message : dsd
