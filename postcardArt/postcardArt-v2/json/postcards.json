@@ -1,0 +1,91 @@
+[ 
+	  { 
+	  	"id": 1,
+	    "name": "Strasbourg #1", 
+	    "price": 8, 
+	    "pubdate": "2014-06-07T13:53:29+01:00", 	    
+	    "likes": 0,
+	    "dislikes":0,
+	    "images": [
+	    	{
+	    		"name": "https://farm1.staticflickr.com/693/22148588156_224f0992c2_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5650/21553631793_8b2cae5223_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm1.staticflickr.com/596/21551785174_2dd5cb61ae_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm1.staticflickr.com/582/22174538245_2977695a55_z.jpg"
+	    	}
+	    ],
+	    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus nisi non sollicitudin porttitor. Donec tortor sapien, sagittis non elit accumsan, mattis bibendum nisi. Maecenas sed nunc condimentum, tincidunt justo quis, vulputate arcu. Integer feugiat enim id neque bibendum mollis. Vivamus ac tincidunt neque. Nulla nisi sem, varius a pulvinar sit amet, tempus ut nisi. Suspendisse blandit porta ligula sed pulvinar. Etiam sollicitudin, mauris ut iaculis vehicula, ipsum purus iaculis risus, eget scelerisque neque mauris id lorem. Vestibulum non gravida tellus. Nam et maximus dolor. Morbi at erat elit. Maecenas hendrerit, arcu vitae ullamcorper imperdiet, turpis massa tincidunt est, eu elementum metus ligula in ligula. In hac habitasse platea dictumst. Phasellus vel justo ultricies, sagittis magna quis, hendrerit sapien. Phasellus in odio eleifend, fermentum tortor sed, sollicitudin mauris. Donec purus lorem, dictum ac finibus non, vehicula et magna."
+	  }, 
+	  { 
+	  	"id": 2,
+	    "name": "Strasbourg #2", 
+	    "price": 9, 
+	    "pubdate": "2014-06-07T13:53:29+01:00", 
+	    "likes": 0,
+	    "dislikes":0,
+	    "images": [
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5763/21986938748_6481b7ab82_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm1.staticflickr.com/660/21986505250_c294ae64b9_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5759/22161978002_e6ea03c6d8_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm1.staticflickr.com/585/21987727289_576c657b2d_z.jpg"
+	    	}
+	    ],
+	    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus nisi non sollicitudin porttitor. Donec tortor sapien, sagittis non elit accumsan, mattis bibendum nisi. Maecenas sed nunc condimentum, tincidunt justo quis, vulputate arcu. Integer feugiat enim id neque bibendum mollis. Vivamus ac tincidunt neque. Nulla nisi sem, varius a pulvinar sit amet, tempus ut nisi. Suspendisse blandit porta ligula sed pulvinar. Etiam sollicitudin, mauris ut iaculis vehicula, ipsum purus iaculis risus, eget scelerisque neque mauris id lorem. Vestibulum non gravida tellus. Nam et maximus dolor. Morbi at erat elit. Maecenas hendrerit, arcu vitae ullamcorper imperdiet, turpis massa tincidunt est, eu elementum metus ligula in ligula. In hac habitasse platea dictumst. Phasellus vel justo ultricies, sagittis magna quis, hendrerit sapien. Phasellus in odio eleifend, fermentum tortor sed, sollicitudin mauris. Donec purus lorem, dictum ac finibus non, vehicula et magna."
+	  },
+	  { 
+	  	"id": 3,
+	    "name": "Vizille", 
+	    "price": 9, 
+	    "pubdate": "2008-04-23T14:41:21+01:00", 
+	    "likes": 0,
+	    "dislikes":0,
+	    "images": [
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5635/21987690210_d90236ae0d_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5635/22163140592_b48b670d9f_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5633/21554730683_a2936491dc_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5621/21988902889_4b03f4dd66_z.jpg"
+	    	}
+	    ],
+	    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus nisi non sollicitudin porttitor. Donec tortor sapien, sagittis non elit accumsan, mattis bibendum nisi. Maecenas sed nunc condimentum, tincidunt justo quis, vulputate arcu. Integer feugiat enim id neque bibendum mollis. Vivamus ac tincidunt neque. Nulla nisi sem, varius a pulvinar sit amet, tempus ut nisi. Suspendisse blandit porta ligula sed pulvinar. Etiam sollicitudin, mauris ut iaculis vehicula, ipsum purus iaculis risus, eget scelerisque neque mauris id lorem. Vestibulum non gravida tellus. Nam et maximus dolor. Morbi at erat elit. Maecenas hendrerit, arcu vitae ullamcorper imperdiet, turpis massa tincidunt est, eu elementum metus ligula in ligula. In hac habitasse platea dictumst. Phasellus vel justo ultricies, sagittis magna quis, hendrerit sapien. Phasellus in odio eleifend, fermentum tortor sed, sollicitudin mauris. Donec purus lorem, dictum ac finibus non, vehicula et magna."
+	  },
+	  { 
+	  	"id": 4,
+	    "name": "Grenoble", 
+	    "price": 10, 
+	    "pubdate": "2008-04-24T16:05:51+01:00", 
+	    "likes": 0,
+	    "dislikes":0,
+	    "images": [
+	    	{
+	    		"name": "https://farm1.staticflickr.com/628/22163133952_abb46fff0e_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5797/21987671120_bea0734a48_z.jpg"
+	    	},
+	    	{
+	    		"name": "https://farm6.staticflickr.com/5640/21987666950_75036fb79b_z.jpg"
+	    	}
+	    ],
+	    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus nisi non sollicitudin porttitor. Donec tortor sapien, sagittis non elit accumsan, mattis bibendum nisi. Maecenas sed nunc condimentum, tincidunt justo quis, vulputate arcu. Integer feugiat enim id neque bibendum mollis. Vivamus ac tincidunt neque. Nulla nisi sem, varius a pulvinar sit amet, tempus ut nisi. Suspendisse blandit porta ligula sed pulvinar. Etiam sollicitudin, mauris ut iaculis vehicula, ipsum purus iaculis risus, eget scelerisque neque mauris id lorem. Vestibulum non gravida tellus. Nam et maximus dolor. Morbi at erat elit. Maecenas hendrerit, arcu vitae ullamcorper imperdiet, turpis massa tincidunt est, eu elementum metus ligula in ligula. In hac habitasse platea dictumst. Phasellus vel justo ultricies, sagittis magna quis, hendrerit sapien. Phasellus in odio eleifend, fermentum tortor sed, sollicitudin mauris. Donec purus lorem, dictum ac finibus non, vehicula et magna."
+	  }
+]

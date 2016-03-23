@@ -1,0 +1,13 @@
+.footer {
+   background-color: $color-footer-bg;
+   text-align: center;
+}
+.footer h2, a {
+   color: $color-link-default;
+   font-size: 20px;
+   text-decoration: none;
+}
+.footer a:hover {
+   text-decoration: none;
+   color: $color-link-hover;
+}

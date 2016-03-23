@@ -1,0 +1,4 @@
+.main {
+   padding: 150px 0;
+   @include pattern-polka-dot ($color-body);
+}

@@ -1,0 +1,22 @@
+[
+	{"name": "Burial from a Different Dimension", "class": "Spell"},
+	{"name": "Charge of the Light Brigade", "class": "Spell"},
+	{"name": "Infernoid Antra", "class": "Monster"},
+	{"name": "Infernoid Attondel", "class": "Monster"},
+	{"name": "Infernoid Decatron", "class": "Monster"},
+	{"name": "Infernoid Devyaty", "class": "Monster"},
+	{"name": "Infernoid Harmadik", "class": "Monster"},
+	{"name": "Infernoid Onuncu", "class": "Monster"},
+	{"name": "Infernoid Patrulea", "class": "Monster"},
+	{"name": "Infernoid Pirmais", "class": "Monster"},
+	{"name": "Infernoid Seitsemas", "class": "Monster"},
+	{"name": "Lyla, Lightsworn Sorceress", "class": "Monster"},
+	{"name": "Monster Gate", "class": "Spell"},
+	{"name": "One for One", "class": "Spell"},
+	{"name": "Raiden, Hand of the Lightsworn", "class": "Monster"},
+	{"name": "Reasoning", "class": "Spell"},
+	{"name": "Time-Space Trap Hole", "class": "Trap"},
+	{"name": "Torrential Tribute", "class": "Trap"},
+	{"name": "Upstart Goblin", "class": "Spell"},
+	{"name": "Void Seer", "class": "Spell"}
+]

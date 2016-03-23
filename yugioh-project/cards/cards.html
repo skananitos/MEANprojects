@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row" ng-controller="CardsCtrl"> 
+    <!-- Sidebar
+    ================================================== -->
+    <div class="col-sm-3 col-md-2 sidebar">
+        <div ng-repeat="card in cards">
+          <div ng-class="{whitebox : $index%2==0, greybox : !($index%2==0)}">
+            {{card.name}} <br /><br />
+            <button type="button" class="btn btn-details" ng-click="getDetails(card.name)">{{card.class}}</button>
+          </div>
+        </div>
+    </div>
+
+  
+    <!-- Home page
+    ================================================== -->
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" ng-hide="selected">
+      <img src="img/banner.png"><br /><br /><br />
+      <h1 class="page-header">Welcome to Yu­Gi­Oh! Deck Browser</h1>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare facilisis gravida. Nam venenatis ac felis porta hendrerit. Cras ut ornare nibh, at varius arcu. Nullam maximus magna vel cursus molestie. Suspendisse mi erat, rhoncus vitae nulla vitae, vestibulum condimentum mi. Fusce iaculis pharetra hendrerit. Pellentesque ullamcorper rhoncus vehicula. Integer facilisis justo sem, ullamcorper eleifend neque vestibulum non. Ut feugiat finibus ligula, ac accumsan turpis sodales vitae. Suspendisse mi nisi, accumsan consequat orci sed, egestas lobortis tellus. Quisque et risus neque. Integer ornare sem lacus, id aliquam dolor ornare vitae. Vestibulum rutrum neque sit amet arcu finibus eleifend. Ut rhoncus tortor luctus tellus aliquam, sit amet blandit est dignissim. Duis in consectetur nisi.</p>
+        <p>Fusce enim massa, aliquet ut tempor in, tincidunt id purus. Aliquam suscipit, tortor at congue facilisis, odio massa efficitur felis, in convallis arcu tortor nec urna. Pellentesque lacinia ligula vehicula turpis euismod, quis gravida odio eleifend. Maecenas facilisis enim id purus blandit fermentum. Fusce ut est lorem. Vivamus ac nisl eleifend, varius erat et, tempus nulla. Mauris in faucibus orci. Quisque dapibus imperdiet urna vel tempus. Proin lacinia a orci vel tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent aliquam mauris vel risus elementum, eu sagittis lectus cursus.</p>
+        <p>Nunc urna ante, fermentum id sem non, finibus consectetur risus. Nunc placerat elementum nisi eu semper. Nullam sed eros malesuada, porttitor erat at, accumsan urna. Sed aliquam tellus at facilisis congue. Ut interdum pharetra posuere. Praesent massa tortor, condimentum vitae tincidunt id, ultricies ac neque. Duis fringilla massa id nisl accumsan sodales.</p>
+      </div>
+    </div>
+
+
+    <!-- Card details area
+    ================================================== -->
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" ng-if="selected">
+      <h1 class="page-header">{{details.data.name}}</h1>
+      <div class="col-md-6">
+        <img ng-src=http://yugiohprices.com/api/card_image/{{details.data.name}}>
+      </div>
+      <div class="col-md-6">
+        <h3>Description</h3>
+        <p>{{details.data.text}}</p>
+        <h3>Details</h3>
+        <p>Card type: {{details.data.card_type}}</p>
+        <p>Type: <span ng-show="details.data.type === null">N/A</span>{{details.data.type}}</p>
+        <p>Family: <span ng-show="details.data.family === null">N/A</span>{{details.data.family}}</p>
+        <p>Attack: <span ng-show="details.data.atk === null">N/A</span>{{details.data.atk}}</p>
+        <p>Defence: <span ng-show="details.data.def === null">N/A</span>{{details.data.def}}</p>
+        <p>Level: <span ng-show="details.data.level === null">N/A</span>{{details.data.level}}</p>
+        <p>Property: <span ng-show="details.data.property === null">N/A</span>{{details.data.property}}</p>
+        <h3>Price</h3>
+        <p>Average: <span ng-show="price.data[0].price_data.data.prices.average === null">N/A</span>{{price.data[0].price_data.data.prices.average | currency}}</p>
+        <p>Rarity: <span ng-show="price.data[0].rarity === null">N/A</span>{{price.data[0].rarity}}</p>
+        <p>Last update: <span ng-show="date === null">N/A</span>{{date}}</p>
+      </div>
+    </div>
+
+
+  </div>
+</div>

@@ -1,0 +1,18 @@
+.cart {
+   background-color: $color-cart;
+   color: $color-link-default;
+   font-size: 15px;
+   border-radius: $br-cycle;
+   box-shadow: 0 2px 5px rgba($color-body,0.2);
+   font-weight: 200;
+   height: 80px;
+   line-height: 80px;
+   text-align: center;
+   width: 80px;
+   position: absolute;
+   top: -40px;
+   right: 20px;
+}
+.cart:hover {
+   background-color: $color-cart-hover;
+}

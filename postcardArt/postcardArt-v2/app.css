@@ -1,0 +1,209 @@
+/* app css stylesheet */
+
+html, body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   width:100%;
+}
+
+.header {
+   padding: 25px;
+   background-color: #05b408;
+   background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+   linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+   linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+   linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+   background-size: 13px, 29px, 37px, 53px;
+ 
+}
+
+.header img {
+   display: inline-block;
+}
+
+.header h1 {
+   display: inline-block;
+   text-shadow: 2px 2px 3px black;
+   font-size: 54px;
+   color: white;
+   margin-left: 15px;
+   margin-top: 0px;
+}
+
+.main {
+   padding:150px 0;
+   background-color:#3e1a3b;
+   background-image: radial-gradient(white 15%, transparent 16%),
+   radial-gradient(white 15%, transparent 16%);
+   background-size:60px 60px;
+   background-position: 0 0, 30px 30px;
+   max-height: 100%;
+}
+
+.thumbnail {
+   border: 0px;
+   position: relative;
+   padding: 50px;
+   margin-bottom:50px;
+   margin-top:20px;
+   background-color: #50ca52;
+   border-radius: 8px;
+}
+
+.thumbnail img {
+   margin-top: 10px;
+   margin-bottom: 30px;
+   width: 500px;
+   height: 299px;
+   border-radius: 10%;
+}
+
+.title {
+   color: #444;
+   margin: 0;
+   font-size: 18px !important;
+   font-weight: 800 !important;
+}
+
+.date {
+   color: #444;
+   margin: 0;
+   font-size: 14px !important;
+   font-weight: 200 !important;
+}
+
+.cart {
+   background-color: #7c3576;
+   color: #eaeaea;
+   font-size: 15px !important;
+   border-radius: 50%;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+   font-weight: 200 !important;
+   height: 80px;
+   line-height: 80px;
+   text-align: center;
+   width: 80px;
+   position: absolute;
+   top: -40px;
+   right: 20px;
+}
+
+.cart:hover {
+   background-color: #8c4e87;
+}
+
+.rating {
+   text-align: right;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   margin: 30px 0 -30px 20px;
+}
+
+.likes, .dislikes {
+   background: #1c8a1d;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 15px;
+   line-height: 40px;
+   min-width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin: 0 -30px 0 40px;
+   text-align: center;
+   font-weight: 200;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+   transition: background 500ms;
+}
+
+.likes:hover, .dislikes:hover {
+   color: #1c8a1d;
+   background: #9acb9b;
+   transition: background 500ms;
+}
+
+.footer {
+   background-color: #5c0354 ;
+   text-align: center;
+}
+
+.footer h2, a {
+   color: #eaeaea;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+.footer a:hover {
+   text-decoration: none;
+   color: #b7b7b7;
+}
+
+.details {
+   background-color: #50ca52;
+   max-height: 100%;
+   margin-top: 20px;
+}
+
+.details img {
+   border-radius: 5%;
+}
+
+.description {
+   color: #444;
+   margin: 0;
+   font-size: 16px !important;
+   font-weight: 200 !important;
+}
+
+.back {
+   font-size: 14px;
+   text-decoration: none;
+   margin-bottom: 0px;
+}
+
+.back:hover {
+   text-decoration: none;
+}
+
+.cart-details {
+   background-color: #7c3576;
+   color: #eaeaea;
+   font-size: 15px !important;
+   border-radius: 50%;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+   font-weight: 200 !important;
+   height: 80px;
+   line-height: 80px;
+   text-align: center;
+   width: 80px;
+   position: absolute;
+   top: -90px;
+   right: 20px;
+}
+
+.cart-details:hover {
+   background-color: #8c4e87;
+}
+
+.img-full {
+   width: 100%;
+}
+
+.bw-turn {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+   transition: all 1s ease;
+}
+ 
+.bw-turn:hover {
+  -webkit-filter: grayscale(100%);
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}

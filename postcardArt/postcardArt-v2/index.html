@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="postcardArt" lang="en">
+<head>
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'><!-- 
+  <link href="bower_components/bootstrap/dist/css/normalize.min.css" rel="stylesheet" /> -->
+  <link href="app.css" rel="stylesheet" />
+  <title>Art on a Postcard</title>
+  <meta charset="utf-8">
+  <meta name="Keywords" content="HTML,CSS3,Bootstrap,AngularJS,Web development,template">
+  <meta name="Description" content="An easy to use web template">
+  <link rel="icon" href="img/fav.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="author" content="https://github.com/skananitos">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="header" >
+      <div class="container">
+        <a class="navbar-brand" href="#/postcards"><h1>Art on a Postcard</h1></a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main">
+    <div class="container"> 
+      <div ng-view></div>
+    </div>
+  </div>
+
+  <div class="footer" >
+      <div class="container">
+        <h2><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span><a href="https://github.com/skananitos"> Skananitos</a>, 2016</h2>
+      </div>
+    </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.0.0.min.js"></script>
+  <script>
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("%3Cscript src='/js/jquery-2.0.0.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+  </script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="postcards/postcards.js"></script>
+</body>
+</html>

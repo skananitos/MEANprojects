@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+ 	<link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" />
+    <title>Art on a Postcard</title>
+    <meta charset="utf-8">
+	<meta name="Keywords" content="HTML,CSS3,Bootstrap,AngularJS,Web development,template">
+	<meta name="Description" content="An easy to use web template">
+	<link rel="icon" href="img/fav.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="author" content="https://github.com/skananitos">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+
+</head>
+<body ng-controller="MainController">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="header" >
+      <div class="container">
+        <h1>{{ title }}</h1>
+      </div>
+    </div>
+	</nav>
+
+	<div class="main">
+		<div class="container">	
+
+	      <div ng-repeat="product in products" class="col-md-6"> 
+		  	<div class="thumbnail"> 
+		  		<p class="title">{{ product.name }}</p> 
+		  		<p class="date">{{ product.pubdate | date }}</p>
+			    <img ng-src="{{ product.cover }}">
+			    <a href="#"><p class="cart"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>{{ product.price | currency: " "}} &euro;</p></a>
+			    <div class="rating">
+			    <p class="likes" ng-click="plusOne($index)"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> {{ product.likes }}</p>
+			    <p class="dislikes"  ng-click="minusOne($index)"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> {{ product.dislikes }}</p>
+				</div>
+		  	</div> 
+		</div>
+
+	    </div>
+	</div>
+
+	<div class="footer" >
+      <div class="container">
+        <h2><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span><a href="https://github.com/skananitos"> {{ subtitle }}</a>, 2016</h2>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="js/myModule.js"></script>
+</body>
+</html>

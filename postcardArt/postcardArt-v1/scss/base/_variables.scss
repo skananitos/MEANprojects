@@ -1,0 +1,51 @@
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+
+$mosque     	: #026873;
+$pompadour  	: #5c0354;
+$gallery		: #eaeaea;
+$nobel			: #b7b7b7;
+$plum			: #7c3576;
+$strikemaster	: #8c4e87;
+$tundora		: #444444;
+$neptune		: #80b3b9;
+$breakerBay		: #67a4ab;
+
+// Functional color variables
+
+$color-header-bg 		: $mosque;
+$color-header-h1    	: $white;
+
+$color-footer-bg 		: $pompadour;
+
+$color-link-default		: $gallery;
+$color-link-hover		: $nobel;
+
+$color-shadow      		: rgba($black,.8);
+$color-body         	: $black;
+$color-image        	: $white;
+
+$color-cart				: $plum;
+$color-cart-hover		: $strikemaster;
+
+$color-titles			: $tundora;
+
+$color-likes-bg 		: $mosque;
+$color-likes-bg-hover   : $neptune;
+$color-likes-txt    	: $white;
+
+$color-thumb			: $breakerBay;
+
+
+// Font stacks
+
+$stack-sans-serif : Roboto, sans-serif;
+
+
+// Border radius
+
+$br-cycle		: 50%;
+$br-thumb 		: 8px;
+$br-thumb-img	: 10%;

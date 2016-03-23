@@ -1,0 +1,16 @@
+<div class="row">
+	<div ng-repeat="postcard in postcards">
+		<div class="col-md-6">
+			<div class="thumbnail"> 
+				<p class="title">{{ postcard.name }}</p> 
+				<p class="date">{{ postcard.pubdate | date }}</p>
+				<img ng-src="{{ postcard.images[0].name }}" class="bw-turn">
+				<a href="#/postcards/{{postcard.id}}"><p class="cart"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Details</p></a>
+				<div class="rating">
+					<p class="likes" ng-click="plusOne($index)"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> {{ postcard.likes }}</p>
+					<p class="dislikes"  ng-click="minusOne($index)"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> {{ postcard.dislikes }}</p>
+	        	</div>
+	        </div> 
+		</div>
+	</div>
+</div>

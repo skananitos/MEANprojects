@@ -1,0 +1,10 @@
+.title {
+   @extend %maintitles;
+   font-size: 18px;
+   font-weight: 800;
+}
+.date {
+   @extend %maintitles;
+   font-size: 14px;
+   font-weight: 200;
+}

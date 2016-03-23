@@ -1,0 +1,27 @@
+<div class="jumbotron details"> 
+  	<div class="row">
+		<div class="col-md-8">
+			<a href="#/postcards" class="back"><span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span> Go Back</a>
+			<br><br>
+			<img ng-src="{{mainImage}}" class="img-full">
+			<br><br>
+			 <div class="row">
+				<div ng-repeat="image in postcard.images | limitTo:4">
+					<div class="col-md-3">
+						<img class="img-full" ng-src="{{image.name}}" ng-click="setImage(image)">
+					</div>
+				</div> 
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<p class="title">{{ postcard.name }}</p> 
+			<p class="date">{{ postcard.pubdate | date }}</p>
+			<div><br>
+				<p class="description">{{ postcard.description }}</p>
+			</div>
+			<a href="#"><p class="cart-details"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>{{ postcard.price | currency: " "}} &euro;</p></a>
+			
+	    </div>
+   </div> 
+</div>

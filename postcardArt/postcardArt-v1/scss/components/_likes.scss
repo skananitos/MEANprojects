@@ -1,0 +1,21 @@
+.likes, .dislikes {
+   background: $color-likes-bg;
+   color: $color-likes-txt;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 15px;
+   line-height: 40px;
+   min-width: 40px;
+   height: 40px;
+   border-radius: $br-cycle;
+   margin: 0 -30px 0 40px;
+   text-align: center;
+   font-weight: 200;
+   box-shadow: 0 2px 5px rgba($color-body,0.2);
+   transition: background 500ms;
+}
+.likes:hover, .dislikes:hover {
+   color: $color-likes-bg;
+   background: $color-likes-bg-hover;
+   transition: background 500ms;
+}

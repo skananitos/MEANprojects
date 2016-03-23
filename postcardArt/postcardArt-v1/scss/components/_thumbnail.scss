@@ -1,0 +1,15 @@
+.thumbnail {
+   border: 0px;
+   position: relative;
+   padding: 50px;
+   background-color: $color-thumb;
+   margin-bottom:50px;
+   margin-top:20px;   
+   border-radius: $br-thumb;
+}
+.thumbnail img {
+   margin-top: 10px;
+   margin-bottom: 30px;
+   max-width: 100%;
+   border-radius: $br-thumb-img;
+}
