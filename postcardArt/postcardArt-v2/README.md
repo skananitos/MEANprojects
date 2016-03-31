@@ -15,3 +15,7 @@ HTML, CSS3, Bootstrap, AngularJS, angular-seed, Node.js
 1. Open Git Bash (cmd or terminal) on the directory of the project
 2. Run the command `npm start`
 3. Open a browser and type: `http://localhost:8000/app`
+
+
+
+![alt tag](https://github.com/skananitos/MEANprojects/blob/master/postcardArt/postcardArt-v2/preview.png)
