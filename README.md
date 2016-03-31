@@ -29,3 +29,8 @@ Web portfolio template (HTML, CSS3, Sass, Bootstrap, AngularJS)
 ### [Yu­Gi­Oh! Deck Browser](https://github.com/skananitos/MEANprojects/tree/master/yugioh-project)
 
 Yu­Gi­Oh! Deck Browser uses the [YugiohPrices.com API](http://docs.yugiohprices.apiary.io/). It's a simple deck browser app for a specific card deck.
+
+
+### [AutoCompletion](https://github.com/skananitos/MEANprojects/tree/master/autocompletion)
+
+A single HTML page that includes a Search Input field which is spiced up with an AutoCompletion component implemented with AngularJS.
