@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-cloak>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AngularJS AutoComplete</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Included when we wait to call AngularJS at the end of the document -->
+    <style>
+      [ng\:cloak], [ng-cloak], .ng-cloak {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body ng-controller="MainCtrl">
+    
+    <header>
+      <h1>Seafood Recipes</h1>
+    </header>
+    
+    <div class="main">
+      <h2>Search for our delicious recipes</h2>
+      <div>
+        <!-- Input with 4 directives:
+          ng-keydown -> for up, down and enter
+          ng-keyup -> for delete and backspace
+          ng-model -> to read the value of the text field in the variable recipeText
+          ng-change -> to call the search() function
+         -->
+        <input type="text" placeholder="Search for seafood" class="search" ng-keydown="keydown($event)" ng-keyup="keyup($event)"  ng-model="recipeText" ng-change="search()">
+      </div>
+      
+      <!-- Unordered list with 3 directives:
+          ng-repeat -> to loop through the suggestedRecipes array
+          ng-class -> to assign the active style to the selected item/recipe
+          ng-click -> to assign the value of the item/recipe to the text field and to hide the suggestedRecipes list
+         -->
+      <ul class="autocomplete">
+        <li ng-repeat="suggestedRecipe in suggestedRecipes track by $index" ng-class="{active : recipeIndex === $index}" ng-click="assign($index)">{{suggestedRecipe}}</li>
+      </ul>
+  
+    </div>
+        
+    <footer>
+        Developed by <a href="http://github.com/skananitos">Skananitos</a>
+    </footer>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

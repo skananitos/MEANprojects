@@ -1,0 +1,4 @@
+header {
+  @include formatarea(100%, 6em, $color-header-txt, $color-header-bg);
+  padding: 1em;
+}

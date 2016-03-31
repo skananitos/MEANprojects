@@ -1,0 +1,7 @@
+%waves {
+  background: linear-gradient($color-waves-top 50%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, $color-waves-top 53%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, $color-waves-top 50%, rgba(255,255,255,0) 0) 55px 0 $color-waves-main;
+  background-size:110px 200px;
+  background-repeat:repeat-x;
+}

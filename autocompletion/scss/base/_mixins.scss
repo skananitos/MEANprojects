@@ -1,0 +1,13 @@
+// Sass mixins
+
+@mixin formatarea($width, $height, $color, $bg-color) {
+	width: $width;
+	height: $height;
+	color: $color;
+	background-color: $bg-color;
+}
+
+@mixin searchdistance($margin, $padding) {
+	margin: $margin;
+	padding: $padding;
+}

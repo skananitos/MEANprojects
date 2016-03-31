@@ -1,0 +1,19 @@
+footer{
+  @include formatarea(100%, 4em, $color-footer-txt, $color-footer-bg);
+  position: fixed;
+  bottom: 0;
+  font-weight: 200;
+  line-height: 4em;
+  text-align: center;
+
+  a {
+    color: $color-footer-a;
+    font-weight: bold;
+  }
+
+  a:hover{
+    color: $color-footer-a-hover;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

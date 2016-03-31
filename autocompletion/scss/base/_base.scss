@@ -1,0 +1,9 @@
+// Base Styles
+body{
+  font-family: $fonts-sans-serif; 
+  font-size: 12px;
+  @extend %waves;
+}
+h1, h2{
+  text-align: center;  
+}

@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+
+h1, h2 {
+  text-align: center; }
+
+header {
+  width: 100%;
+  height: 6em;
+  color: #eeeeee;
+  background-color: #333333;
+  padding: 1em; }
+
+footer {
+  width: 100%;
+  height: 4em;
+  color: #eeeeee;
+  background-color: #224660;
+  position: fixed;
+  bottom: 0;
+  font-weight: 200;
+  line-height: 4em;
+  text-align: center; }
+  footer a {
+    color: #acacac;
+    font-weight: bold; }
+  footer a:hover {
+    color: #d46792;
+    font-weight: bold;
+    text-decoration: none; }
+
+.main {
+  width: 300px;
+  height: 150px;
+  color: #eeeeee;
+  background-color: trasparent;
+  margin: -75px auto auto -150px;
+  padding: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%; }
+
+.search {
+  margin: 0px auto;
+  padding: 0px 10px;
+  width: 230px;
+  height: 30px;
+  outline: none;
+  display: block; }
+
+.autocomplete {
+  margin: 0 0 0 23px;
+  padding: 0;
+  position: absolute;
+  list-style-type: none;
+  overflow: auto; }
+  .autocomplete li {
+    width: 234px;
+    height: 10px;
+    color: #000000;
+    background-color: #f9f9f9;
+    margin: auto;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eeeeee; }
+  .autocomplete li:hover {
+    background: #eeeeee; }
+  .autocomplete li:active, .autocomplete li.active {
+    width: 234px;
+    height: auto;
+    color: #ffffff;
+    background-color: #0099FF; }
+  .autocomplete:focus {
+    outline: none; }
+
+body {
+  background: linear-gradient(#ffffff 50%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #ffffff 53%, rgba(255, 255, 255, 0) 0) 0 0, radial-gradient(circle closest-side, #ffffff 50%, rgba(255, 255, 255, 0) 0) 55px 0 #4488bb;
+  background-size: 110px 200px;
+  background-repeat: repeat-x; }
+
+/*# sourceMappingURL=style.css.map */
