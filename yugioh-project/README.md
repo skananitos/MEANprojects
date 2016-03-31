@@ -41,3 +41,6 @@ cd angular-seed
 
 
 3. Open a browser and type: `http://localhost:8000/app/#/cards`
+
+
+![alt tag](https://github.com/skananitos/MEANprojects/blob/master/yugioh-project/preview-sample.png)
