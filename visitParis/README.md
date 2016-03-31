@@ -1,6 +1,10 @@
 # Visit Paris
 
-*Ongoing project* last update: 10.03.2013 - AngularJS extension
+*Ongoing project*
+
+
+![alt tag](https://github.com/skananitos/MEANprojects/blob/master/visitParis/preview.png)
+
 
 
 ### Description
@@ -55,7 +59,3 @@ cd registration-form
 1. Template design -> Bootstrap [Carousel](http://getbootstrap.com/examples/carousel/) theme
 2. Background -> [CSS3 Patterns Gallery](https://lea.verou.me/css3patterns/#carbon-fibre)
 3. Images -> Skananitos @[Flickr](https://www.flickr.com/photos/skananitos/)
-
-
-
-![alt tag](https://github.com/skananitos/MEANprojects/blob/master/visitParis/preview.png)
