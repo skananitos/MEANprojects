@@ -1,5 +1,9 @@
 # Yu­Gi­Oh! Deck Browser
 
+![alt tag](https://github.com/skananitos/MEANprojects/blob/master/yugioh-project/preview-sample.png)
+
+
+
 ### Description
 
 Do you believe in the heart of the cards?
@@ -41,6 +45,3 @@ cd angular-seed
 
 
 3. Open a browser and type: `http://localhost:8000/app/#/cards`
-
-
-![alt tag](https://github.com/skananitos/MEANprojects/blob/master/yugioh-project/preview-sample.png)
