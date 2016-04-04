@@ -1,9 +1,5 @@
 # Smart Phones
 
-![alt tag](https://github.com/skananitos/MEANprojects/blob/master/smart-phones/preview.png)
-
-
-
 ### Description
 
 Smart Phones project is developed by using Bootstrap and AngularJS. The main project's page displays a list of Amazon's Best Sellers in Unlocked Cell Phones. The page provides Tabbed Navigation for the Menu. Users can click on different tabs and retrieve information about each Featured Brand's products.
@@ -37,3 +33,6 @@ cd angular-seed
 
 
 3. Open a browser and type: `http://localhost:8000/app/#/views`
+
+
+![alt tag](https://github.com/skananitos/MEANprojects/blob/master/smart-phones/preview.png)
