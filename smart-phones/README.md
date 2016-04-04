@@ -1,6 +1,6 @@
 # Smart Phones
 
-![alt tag](https://github.com/skananitos/MEANprojects/blob/master/smart-phones/preview-sample.png)
+![alt tag](https://github.com/skananitos/MEANprojects/blob/master/smart-phones/preview.png)
 
 
 
