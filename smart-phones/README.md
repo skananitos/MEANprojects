@@ -35,4 +35,6 @@ cd angular-seed
 3. Open a browser and type: `http://localhost:8000/app/#/views`
 
 
+### Preview: 
+
 ![alt tag](https://github.com/skananitos/MEANprojects/blob/master/smart-phones/preview.png)
