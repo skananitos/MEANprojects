@@ -1,0 +1,294 @@
+[
+    {
+      "id":1,
+      "name": "BLU Advance 5.0 - Unlocked Dual Sim Smartphone - US GSM - Black",
+      "image": "images/bluadvance5.jpg",
+      "category": "blu",
+      "label":"",
+      "price":59.99,
+      "description":"Unlocked Dual SIM smartphone, with Android 5.1 Lollipop; Mediatek 6580 Quad Core 1.3 GHz Processor with arm Mali-400 GPU; 5.0 inches IPS display: 5MP Main Camera with LED flash and 2MP Camera with LED flash; 4GB Internal memory 768MB RAM Micro SD up to 64GB; GSM Quad band 4G HSPA+ (850/1700/1900): US compatibility Nationwide on all GSM Networks including AT&T, T-Mobile, Cricket, MetroPCS, Straight Talk, Pure Talk USA and others",
+      "comments": [
+               {
+                  "rating":5,
+                  "comment":"This phone is a unbelievable value!",
+                  "author":"TX_res001",
+                  "date":"2016-03-16T17:57:28+19:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"Excellent phone for its price I highly recommend it!",
+                  "author":"Iskra Cortes",
+                  "date":"2016-01-05T17:57:28+17:00"
+               },
+               {
+                  "rating":2,
+                  "comment":"The speaker is not loud enough for me playing Youtube videos.",
+                  "author":"RC Watson",
+                  "date":"2015-12-13T17:57:28+12:00"
+               },
+               {
+                  "rating":4,
+                  "comment":"There are better phones out there, but for the price this one is pretty good bang for the buck.",
+                  "author":"Laine",
+                  "date":"2015-11-02T17:57:28+11:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"I really liked the design - judging from the look of it for sure people will think it is an expensive Samsung phone. Pretty and strong too, I dropped it a couple of time and it's still fine.",
+                  "author":"25 Cent",
+                  "date":"2016-02-02T17:57:28+22:00"
+               }
+            ]
+   },
+   {
+      "id":2,
+      "name": "Samsung Galaxy S7 EDGE G935F 32GB Factory Unlocked GSM Smartphone International Version (Platinum Gold)",
+      "image": "images/samsunggalaxys7.jpg",
+      "category": "samsung",
+      "label":"New",
+      "price":748.29,
+      "description":"International Version- Product may not have US Warranty; Fast battery charging: 60% in 30 min (Quick Charge 2.0); Wireless charging (Qi/PMA); market dependent; ANT+ support; S; Voice natural language commands and dictation; OneDrive (115 GB cloud storage); Active noise cancellation with dedicated mic; MP4/DivX/XviD/WMV/H.264 player; MP3/WAV/WMA/eAAC+/FLAC player; Photo/video editor; Document editor; Corning Gorilla Glass back panel; Super AMOLED capacitive touchscreen, 16M colors; 5.5 inches (~76.1% screen-to-body ratio); Dual-core 2.15 GHz Kryo & dual-core 1.6 GHz Kryo; Quad-core 2.3 GHz Mongoose + quad-core 1.6 GHz Cortex-A53; Unlocked cell phones are compatible with GSM carriers like AT&T and T-Mobile as well as with GSM SIM cards (e.g. H20, Straight Talk, and select prepaid carriers). Unlocked cell phones will not work with CDMA Carriers like Sprint, Verizon, Boost or Virgin.",
+      "comments": [
+               {
+                  "rating":5,
+                  "comment":"This is one of the most gorgeous phones I have seen!",
+                  "author":"Shopoholic",
+                  "date":"2015-10-16T17:57:28+22:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"Awesome phone and amazing camera!",
+                  "author":"Boyd M.",
+                  "date":"2015-09-05T17:57:28+05:00"
+               },
+               {
+                  "rating":3,
+                  "comment":"Can't merge incoming call with ongoing.",
+                  "author":"Michael J.",
+                  "date":"2016-02-13T17:57:28+10:00"
+               }
+            ]
+   },
+   {
+      "id":3,
+      "name": "Apple iPhone 5S 16GB Factory Unlocked Smartphone, Gold (Certified Refurbished)",
+      "image": "images/iphone5s.jpg",
+      "category": "apple",
+      "label":"Hot",
+      "price":247.95,
+      "description":"This Certified Refurbished product is factory refurbished, shows limited or no wear, and includes a minimum 90 day seller warranty; Factory unlocked iPhones are GSM models and are ONLY compatible with GSM carriers like AT&T and T-Mobile as well as other GSM networks around the world. They WILL NOT WORK with CDMA carriers like Sprint, Verizon and the likes. The phone requires a nano SIM card (not included in the package); 2G: GSM 850 / 900 / 1800 / 1900, 3G: HSDPA 850 / 900 / 1700 / 1900 / 2100, 4G: LTE (bands are carrier dependent); iOS 7 (upgradable), Dual-Core 1.3 GHz Cyclone (ARM v8-based) Processor, Chipset: Apple A7, PowerVR G6430 (quad-core graphics) Graphics; 8 Megapixel Camera (3264 x 2448 pixels) w/ Autofocus, dual-LED (dual tone) Flash + Front-Facing 1.2 Megapixel Camera, 720p@30fps, face detection, FaceTime over Wi-Fi or Cellular, Video",
+      "comments": [
+               {
+                  "rating":5,
+                  "comment":"As described and perfect. Thank you!",
+                  "author":"Fernando Cano",
+                  "date":"2012-10-16T17:57:28+22:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"Absolutely sastisfied with this product!",
+                  "author":"Paul McVites",
+                  "date":"2016-01-05T17:57:28+21:00"
+               },
+               {
+                  "rating":3,
+                  "comment":"So far so good.",
+                  "author":"Jaikishan",
+                  "date":"2016-02-13T17:57:28+21:00"
+               },
+               {
+                  "rating":4,
+                  "comment":"It is good, untill now no problem thank you.",
+                  "author":"Jeff Starry",
+                  "date":"2015-12-02T17:57:28+20:00"
+               },
+               {
+                  "rating":1,
+                  "comment":"The iPhone was in good condition however the charging cable did not work.",
+                  "author":"Enzo",
+                  "date":"2015-12-02T17:57:28+12:00"
+               }
+            ]
+   },
+   {
+      "id":4,
+      "name": "LG G4 Unlocked - Black Leather 32GB",
+      "image": "images/lgg4.jpg",
+      "category": "lg",
+      "label":"",
+      "price":299.00,
+      "description":"Unlocked, multi-mode device - compatible all US carriers including AT&T, Verizon, T-Mobile and Sprint, as well as MVNO's (Mobile Virtual Network Operators) and most international carriers; 16 MP Camera with f/1.8 low-light lens, Manual Mode, Optical Image Stabilization, Laser Autofocus, and high-res image sensors; User removable/replaceable 3000 mAH battery - Swap out to a fully charged battery in an instant! (one battery included in box - additional batteries sold separately); 32GB Internal with Micro SD Card Slot Supporting up to 2 TB (Micro SD Card sold Separately)",
+      "comments": [
+               {
+                  "rating":5,
+                  "comment":"Fantastic phone at a great price!",
+                  "author":"Ohio",
+                  "date":"2015-10-16T17:57:28+22:00"
+               },
+               {
+                  "rating":3,
+                  "comment":"It was good but the camera had some issue.",
+                  "author":"Paul McVites",
+                  "date":"2015-09-05T17:57:28+22:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"This is the fastest and most stable phone I've ever used.",
+                  "author":"Christian Red",
+                  "date":"2016-02-13T17:57:28+22:00"
+               },
+               {
+                  "rating":4,
+                  "comment":"Nice phone.",
+                  "author":"Benjamin",
+                  "date":"2015-12-02T17:57:28+22:00"
+               }
+            ]
+   },
+   {
+      "id":5,
+      "name": "Apple iPhone 4 (MD439LL/A) - 8GB Smartphone - Black - Verizon (Certified Refurbished)",
+      "image": "images/iphone4.jpg",
+      "category": "apple",
+      "label":"",
+      "price":59.99,
+      "description":"This Certified Refurbished product is factory refurbished, shows limited or no wear, and includes all relevant accessories plus a 90-day warranty; 8GB internal storage - 1 GHz Cortex-A8 CPU - 512 MB RAM; iOS 4 - upgradable; 5MP camera - 2592 x 1936 pixels, autofocus, LED flash; Corning Gorilla Glass, oleophobic coating",
+      "comments": [
+               {
+                  "rating":5,
+                  "comment":"This phone is a unbelievable value!",
+                  "author":"TX_res001",
+                  "date":"2016-03-16T17:57:28+19:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"Excellent phone for its price I highly recommend it!",
+                  "author":"Iskra Cortes",
+                  "date":"2016-01-05T17:57:28+17:00"
+               },
+               {
+                  "rating":2,
+                  "comment":"The speaker is not loud enough for me playing Youtube videos.",
+                  "author":"RC Watson",
+                  "date":"2015-12-13T17:57:28+12:00"
+               },
+               {
+                  "rating":4,
+                  "comment":"There are better phones out there, but for the price this one is pretty good bang for the buck.",
+                  "author":"Laine",
+                  "date":"2015-11-02T17:57:28+11:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"I really liked the design - judging from the look of it for sure people will think it is an expensive Samsung phone. Pretty and strong too, I dropped it a couple of time and it's still fine.",
+                  "author":"25 Cent",
+                  "date":"2016-02-02T17:57:28+22:00"
+               }
+            ]
+   },
+   {
+      "id":6,
+      "name": "BLU Studio Energy 2 - 5000 mAh Super Battery - 4G LTE GSM Unlocked - White",
+      "image": "images/blustudioenergy2.jpg",
+      "category": "blu",
+      "label":"Hot",
+      "price":129.99,
+      "description":"5,000mAh Super Battery: Go Up to 4 Days on Standard Usage with a Single Charge, or 45 days stand-by; CNC Machined out of one solid piece of aircraft grade aluminum to minimize all plastic parts, resulting in a remarkably high end uni-body device that leaves a lasting impression and unique feel in hand; 5.0 inches HD AMOLED LCD, 8MP Main Camera + 5MP Front Camera, MediaTek Quad Core 1.3GHz Processor; Unlocked Dual Sim Phone, Android 5.0 Lollipop, 16GB Internal Storage 1.5GB RAM with Micro SD Slot up to 64GB; 4G LTE, (2/4/7/17),4G HSPA+ (850/1700/1900/2100). GSM Quad Band: US Compatibility Nationwide on all GSM Networks including AT&T, T-Mobile, Cricket, MetroPCS, Straight Talk, Pure Talk USA and others. Please refer the User Manual before use.",
+      "comments": [
+               {
+                  "rating":5,
+                  "comment":"This is one of the most gorgeous phones I have seen!",
+                  "author":"Shopoholic",
+                  "date":"2015-10-16T17:57:28+22:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"Awesome phone and amazing camera!",
+                  "author":"Boyd M.",
+                  "date":"2015-09-05T17:57:28+05:00"
+               },
+               {
+                  "rating":3,
+                  "comment":"Can't merge incoming call with ongoing.",
+                  "author":"Michael J.",
+                  "date":"2016-02-13T17:57:28+10:00"
+               }
+            ]
+   },
+   {
+      "id":7,
+      "name": "Samsung Galaxy S7 Edge G935F Unlocked Phone - Retail Packaging - Black Oynx (International Version)",
+      "image": "images/samsunggalaxys7edge.jpg",
+      "category": "samsung",
+      "label":"New",
+      "price":747.43,
+      "description":"International Version- Product may not have US Warranty; Fast battery charging: 60% in 30 min (Quick Charge 2.0); Wireless charging (Qi/PMA) ; market dependent; ANT+ support; S; Voice natural language commands and dictation; OneDrive (115 GB cloud storage); Active noise cancellation with dedicated mic; MP4/DivX/XviD/WMV/H.264 player; MP3/WAV/WMA/eAAC+/FLAC player; Photo/video editor; Document editor; Corning Gorilla Glass back panel; Super AMOLED capacitive touchscreen, 16M colors; 5.5 inches (~76.1% screen-to-body ratio); Dual-core 2.15 GHz Kryo & dual-core 1.6 GHz Kryo; Quad-core 2.3 GHz Mongoose + quad-core 1.6 GHz Cortex-A53; Unlocked cell phones are compatible with GSM carriers like AT&T and T-Mobile as well as with GSM SIM cards (e.g. H20, Straight Talk, and select prepaid carriers). Unlocked cell phones will not work with CDMA Carriers like Sprint, Verizon, Boost or Virgin.",
+      "comments": [
+               {
+                  "rating":5,
+                  "comment":"As described and perfect. Thank you!",
+                  "author":"Fernando Cano",
+                  "date":"2012-10-16T17:57:28+22:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"Absolutely sastisfied with this product!",
+                  "author":"Paul McVites",
+                  "date":"2016-01-05T17:57:28+21:00"
+               },
+               {
+                  "rating":3,
+                  "comment":"So far so good.",
+                  "author":"Jaikishan",
+                  "date":"2016-02-13T17:57:28+21:00"
+               },
+               {
+                  "rating":4,
+                  "comment":"It is good, untill now no problem thank you.",
+                  "author":"Jeff Starry",
+                  "date":"2015-12-02T17:57:28+20:00"
+               },
+               {
+                  "rating":1,
+                  "comment":"The iPhone was in good condition however the charging cable did not work.",
+                  "author":"Enzo",
+                  "date":"2015-12-02T17:57:28+12:00"
+               }
+            ]
+   },
+   {
+      "id":8,
+      "name": "BLU Vivo XL Smartphone - Chrome Silver",
+      "image": "images/bluvivoxl.jpg",
+      "category": "blu",
+      "label":"Hot",
+      "price":149.99,
+      "description":"Aesthetically engineered for a flawless liquid metal finish, vivid 5.5 inches display HD Super AMOLED Color + Corning Gorilla Glass 3; 16GB Internal memory 2GB RAM and Micro SD up to 64GB; 13MP Main Camera and 5MP Front Camera + PDAF technology and Blue lens; MediaTek 6753 64-Bit 1.3GHz Octa Core Processor with MALI-T720 GPU; 4G LTE, (2/4/7/12/17), 4G HSPA+ (850/1700/1900/2100). GSM Quad band: US compatibility Nationwide on all GSM Networks including AT&T, T-Mobile, Cricket, MetroPCS, Straight Talk, Pure Talk USA, and others. Please refer the User manual before use.",
+      "comments": [
+               {
+                  "rating":5,
+                  "comment":"Fantastic phone at a great price!",
+                  "author":"Ohio",
+                  "date":"2015-10-16T17:57:28+22:00"
+               },
+               {
+                  "rating":3,
+                  "comment":"It was good but the camera had some issue.",
+                  "author":"Paul McVites",
+                  "date":"2015-09-05T17:57:28+22:00"
+               },
+               {
+                  "rating":5,
+                  "comment":"This is the fastest and most stable phone I've ever used.",
+                  "author":"Christian Red",
+                  "date":"2016-02-13T17:57:28+22:00"
+               },
+               {
+                  "rating":4,
+                  "comment":"Nice phone.",
+                  "author":"Benjamin",
+                  "date":"2015-12-02T17:57:28+22:00"
+               }
+            ]
+   }
+]

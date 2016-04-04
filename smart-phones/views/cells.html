@@ -1,0 +1,49 @@
+<div class="row row-content">
+     <div class="col-xs-12">
+       <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation"
+             ng-class="{active:isSelected(1)}">
+            <a ng-click="select(1)"
+             aria-controls="all"
+             role="tab">All</a></li>
+            <li role="presentation"
+             ng-class="{active:isSelected(2)}">
+            <a ng-click="select(2)"
+             aria-controls="apple"
+             role="tab">Apple</a></li>
+            <li role="presentation"
+             ng-class="{active:isSelected(3)}">
+            <a ng-click="select(3)"
+             aria-controls="blu"
+             role="tab">BLU</a></li>
+            <li role="presentation"
+             ng-class="{active:isSelected(4)}">
+            <a  ng-click="select(4)"
+             aria-controls="lg"
+             role="tab">LG</a></li>
+            <li role="presentation"
+             ng-class="{active:isSelected(5)}">
+            <a  ng-click="select(5)"
+             aria-controls="samsung"
+             role="tab">Samsung</a></li>
+        </ul>
+       <div class="tab-content">
+       <ul class="media-list tab-pane fade in active">
+        <li class="media" ng-repeat="cell in cells | filter:filtText">
+            <div class="media-left media-middle">
+                <a href="#/views/{{cell.id}}">
+                <img class="media-object img-thumbnail"
+                 ng-src={{cell.image}} alt="{{cell.name}}">
+                </a>
+            </div>
+            <div class="media-body">
+                <h2 class="media-heading"><a href="#/views/{{cell.id}}">{{cell.name}}</a>
+                 <span class="label label-danger">{{cell.label}}</span>
+                 <span class="badge">{{cell.price | currency}}</span></h2>
+                <p>{{cell.description}}</p>
+            </div>
+        </li>
+    </ul>
+    </div>
+    </div>
+</div>
