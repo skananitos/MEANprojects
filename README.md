@@ -34,3 +34,8 @@ Yu­Gi­Oh! Deck Browser uses the [YugiohPrices.com API](http://docs.yugiohprice
 ### [AutoCompletion](https://github.com/skananitos/MEANprojects/tree/master/autocompletion)
 
 A single HTML page that includes a Search Input field which is spiced up with an AutoCompletion component implemented with AngularJS.
+
+
+### [Smart Phones](https://github.com/skananitos/MEANprojects/tree/master/smart-phones)
+
+Smart Phones project is developed by using Bootstrap and AngularJS.
