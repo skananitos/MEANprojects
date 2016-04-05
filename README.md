@@ -4,9 +4,16 @@
 - Node.js test > Create a web server: listen a port, receive http request, send response
 - Node.js and Express test > A simple express application to test that everything is installed
 
+
 ### [GitHub API with Node.js](https://github.com/skananitos/MEANprojects/tree/master/github-api)
 
 Calling the GitHub API with Node.js to count the repositories of a specific user.
+
+
+### [Connecting to MongoDB with Node.js](https://github.com/skananitos/MEANprojects/tree/master/mongodb-connection)
+
+Simple code to connect to MongoDB with Node.js in order to start building out the server part of any MEAN Stack application.
+
 
 ### [Visit Paris](https://github.com/skananitos/MEANprojects/tree/master/visitParis)
 *Visit Paris* is a web page template where users can read information about Paris and upload their own pictures. 
